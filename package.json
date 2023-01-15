@@ -1,0 +1,23 @@
+{
+  "name": "tailwindpractice",
+  "version": "1.0.0",
+  "description": "practice tailwind project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildCss": "tailwindcss -i ./input/tailwind.css -o ./output/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saqib-vm1/tailwindPractice.git"
+  },
+  "author": "Saqib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saqib-vm1/tailwindPractice/issues"
+  },
+  "homepage": "https://github.com/saqib-vm1/tailwindPractice#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
